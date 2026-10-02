@@ -33,3 +33,31 @@ CadProd/
 ├── produtos.h
 ├── produtos.txt
 └── README.md
+
+## Como Executar
+
+### Utilizando o GCC
+
+1. Abra o terminal na pasta do projeto.
+
+2. Compile o programa:
+
+gcc main.c produtos.c -o sistema
+
+## Adicionando os Arquivos ao Projeto no Dev-C++
+
+Caso o projeto seja aberto sem os arquivos associados, siga os passos abaixo:
+
+1. Abra o arquivo de projeto:
+2. Projeto → Adicionar ao Projeto
+3. selecione os arquivos:
+   main.c
+  produtos.c
+  produtos.h
+4.Após adicionar os arquivos, a estrutura do projeto deverá ficar semelhante a:
+CadProd
+│
+├── main.c
+├── produtos.c
+└── produtos.h
+5. Executar → Compilar e Executar
